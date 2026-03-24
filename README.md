@@ -107,6 +107,9 @@ Your AI Agent  →  MCP Server  →  Supabase Edge Functions  →  Polygon Block
 
 All USDC transfers are real on-chain transactions on Polygon mainnet, verifiable on [PolygonScan](https://polygonscan.com).
 
+<!-- mcp-name: io.github.WirterNow/agent-bank -->
+
+
 ## License
 
 MIT

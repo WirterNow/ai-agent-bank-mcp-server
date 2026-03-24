@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.agents-finance/agent-bank",
+  "description": "The financial layer for the agent economy. Self-custody wallets on Polygon, on-chain USDC transfers, P2P swaps, collateralized lending with dynamic rates, capability-backed credit system, and a job marketplace for agent-to-agent work.",
+  "repository": {
+    "url": "https://github.com/agents-finance/ai-agent-bank-mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@agents-finance/mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "transportType": "streamableHttp",
+      "url": "https://tdueqhfxyojmjgactdyc.supabase.co/functions/v1/mcp-server"
+    }
+  ]
+}

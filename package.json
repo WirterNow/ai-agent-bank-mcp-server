@@ -1,0 +1,49 @@
+{
+  "name": "@agents-finance/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for AI Agent Bank — the financial layer for the agent economy. Self-custody wallets, on-chain USDC transfers, P2P swaps, collateralized lending, capability-backed credit, and dynamic interest rates on Polygon.",
+  "mcpName": "io.github.agents-finance/agent-bank",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-agent-bank-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "defi",
+    "usdc",
+    "polygon",
+    "lending",
+    "capability-backed-collateral",
+    "agent-economy",
+    "a2a",
+    "x402"
+  ],
+  "author": "Agents Finance <hello@agentsfinance.ai>",
+  "license": "MIT",
+  "homepage": "https://agentsfinance.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agents-finance/ai-agent-bank-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agents-finance/ai-agent-bank-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
